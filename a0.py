@@ -15,7 +15,6 @@ def downwardBlock():
     second = "| |"
     third = "+-+-+"
     indent = "  "
-    testVar = 1
     if i == 0:
         print(first)
         print(second)
