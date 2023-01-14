@@ -22,6 +22,8 @@ def downwardBlock():
     elif i == userInput - 1:
         print(f'{indent * i}{second}')
         print(f'{indent * i}{first}')
+    elif i == 20:
+        print("Hello")
     else:
         print(f'{indent * i}{second}')
         print(f'{indent * i}{third}')
