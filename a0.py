@@ -28,4 +28,4 @@ def downward_block(user_input):
 
 
 user_input = int(input())
-downwardBlock(userInput)
+downward_block(user_input)
