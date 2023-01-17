@@ -8,22 +8,24 @@
 # lym8@uci.edu
 # 62717883
 
-def downwardBlock(userInput):
+
+def downward_block(user_input):
     first = "+-+"
     second = "| |"
     third = "+-+-+"
     indent = "  "
-    for i in range(userInput): #0 to userInput - 1
+    for i in range(user_input):
         if i == 0:
             print(first)
             print(second)
             print(third)
-        elif i == (userInput - 1):
+        elif i == (user_input - 1):
             print(f'{indent * i}{second}')
             print(f'{indent * i}{first}')
         else:
             print(f'{indent * i}{second}')
             print(f'{indent * i}{third}')
 
-userInput = int(input())
+
+user_input = int(input())
 downwardBlock(userInput)
